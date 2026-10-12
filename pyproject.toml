@@ -3,17 +3,18 @@ name = "Fast_api"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Ilya",email = "kochnev.ilya2003@yandex.ru"}
 ]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "fastapi (>=0.116.1,<0.117.0)",
-    "uvicorn[standart] (>=0.35.0,<0.36.0)",
+    "uvicorn[standard] (>=0.35.0,<0.36.0)",
     "pydantic[email] (>=2.11.7,<3.0.0)",
     "sqlalchemy[asyncio] (>=2.0.41,<3.0.0)",
-    "aiosqlite (>=0.21.0,<0.22.0)"
+    "aiosqlite (>=0.21.0,<0.22.0)",
+    "pydantic-settings (>=2.10.1,<3.0.0)"
 ]
 
 [tool.poetry]
